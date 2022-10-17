@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="PropertySizeDescription <= 3.5\nsquared_error = 15654295140.745\nsamples = 6296\nvalue = 224408.719", fillcolor="#f4caac"] ;
+1 [label="PropertySizeDescription <= 1.5\nsquared_error = 6298628507.161\nsamples = 4760\nvalue = 171841.674", fillcolor="#f8decb"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="VATExclusive <= 0.5\nsquared_error = 1166738646.747\nsamples = 1462\nvalue = 89679.996", fillcolor="#fffefd"] ;
+1 -> 2 ;
+3 [label="squared_error = 567879279.89\nsamples = 1404\nvalue = 86457.688", fillcolor="#ffffff"] ;
+2 -> 3 ;
+4 [label="squared_error = 9327595938.636\nsamples = 58\nvalue = 167682.065", fillcolor="#f9e0ce"] ;
+2 -> 4 ;
+5 [label="PropertySizeDescription <= 2.5\nsquared_error = 4254506192.353\nsamples = 3298\nvalue = 208263.862", fillcolor="#f5d0b6"] ;
+1 -> 5 ;
+6 [label="squared_error = 4040142002.751\nsamples = 1814\nvalue = 176160.562", fillcolor="#f8ddc9"] ;
+5 -> 6 ;
+7 [label="squared_error = 1716787471.727\nsamples = 1484\nvalue = 247506.036", fillcolor="#f2c19e"] ;
+5 -> 7 ;
+8 [label="VATExclusive <= 0.5\nsquared_error = 9546368492.184\nsamples = 1536\nvalue = 387311.801", fillcolor="#e78b49"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="lng <= -6.323\nsquared_error = 7256099795.813\nsamples = 1248\nvalue = 401133.993", fillcolor="#e68641"] ;
+8 -> 9 ;
+10 [label="squared_error = 6103973113.57\nsamples = 512\nvalue = 381792.287", fillcolor="#e88e4d"] ;
+9 -> 10 ;
+11 [label="squared_error = 7616294914.616\nsamples = 736\nvalue = 414589.093", fillcolor="#e58139"] ;
+9 -> 11 ;
+12 [label="YearMonth <= 201611.5\nsquared_error = 15055419369.38\nsamples = 288\nvalue = 327415.636", fillcolor="#eca26e"] ;
+8 -> 12 ;
+13 [label="squared_error = 15734863641.491\nsamples = 99\nvalue = 221155.73", fillcolor="#f4cbae"] ;
+12 -> 13 ;
+14 [label="squared_error = 5687068701.774\nsamples = 189\nvalue = 383075.587", fillcolor="#e78d4c"] ;
+12 -> 14 ;
+}

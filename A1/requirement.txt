@@ -1,0 +1,22 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import seaborn as sns
+from matplotlib.backends.backend_pdf import PdfPages
+import requests
+import json
+import time
+from mysql_utils import PyMySQL
+import numpy as np
+import pandas as pd
+
+import warnings
+warnings.filterwarnings('ignore')
+%matplotlib inline
+
+import scipy.stats as ss
+import seaborn as sns
+from sklearn import preprocessing
+
+%%time
+from itertools import combinations
